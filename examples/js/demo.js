@@ -4,7 +4,7 @@ var conditions, actions, nameField, ageField, occupationField, submit, allData;
 
   function getInitialData() {
     return {"variables": [
-            { "name": "expiration_days",
+            { "name": "expiration_day",
               "label": "Days until expiration",
               "field_type": "numeric",
               "options": []},
