@@ -16,8 +16,8 @@ var conditions, actions, nameField, ageField, occupationField, submit, allData;
               "label": "Goes Well With",
               "field_type": "select",
               "options": ["Eggnog", "Cookies", "Beef Jerkey"]},
-            { "name": "Battery",
-              "label": "Battery_Voltage",
+            { "name": "Battery_voltage",
+              "label": "Battery Voltage",
               "field_type": "numeric",
               "options": []},
                         ],
@@ -27,7 +27,12 @@ var conditions, actions, nameField, ageField, occupationField, submit, allData;
               "params": {"sale_percentage": "numeric"}},
             { "name": "order_more",
               "label": "Order More",
-              "params": {"number_to_order": "numeric"}}
+              "params": {"number_to_order": "numeric"}},
+            { "name": "Raise_alert",
+              "label": "Raise alert"},
+            { "name": "Send mail",
+              "label": "Send_mail",
+              "params": {"Email ID": "string"}}
           ],
           "variable_type_operators": {
             "numeric": [ {"name": "equal_to",
