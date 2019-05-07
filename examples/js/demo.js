@@ -28,8 +28,6 @@ var conditions, actions, nameField, ageField, occupationField, submit, allData;
             { "name": "order_more",
               "label": "Order More",
               "params": {"number_to_order": "numeric"}},
-            { "name": "Raise_alert",
-              "label": "Raise alert"},
             { "name": "Send mail",
               "label": "Send_mail",
               "params": {"Email ID": "string"}}
