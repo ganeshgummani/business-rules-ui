@@ -15,7 +15,7 @@ var conditions, actions, nameField, ageField, occupationField, submit, allData;
             { "name": "goes_well_with",
               "label": "Goes Well With",
               "field_type": "select",
-              "options": ["Eggnog", "Cookies", "Beef Jerkey"]}
+              "options": ["Eggnog", "Cookies", "Beef Jerkey"]},
             { "name": "Battery",
               "label": "Battery_Voltage",
               "field_type": "numeric",
